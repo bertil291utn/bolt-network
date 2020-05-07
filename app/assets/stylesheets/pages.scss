@@ -1,3 +1,145 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html,
+body {
+  background-image: url(http://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+  font-family: 'Oxygen';
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Header */
+.header {
+  color: #fff;
+}
+
+.header ul {
+  list-style: none;
+}
+
+.header li {
+  display: inline;
+  margin-right: 30px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-color: #000;
+  height: 600px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-weight: 300;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.jumbotron .btn {
+  color: #0393ff;
+  background: transparent;
+  border: 1px solid #0393ff;
+  border-radius: 2px;
+  padding: 8px 20px;
+}
+
+.jumbotron .btn:hover {
+  color: #fff;
+  background-color: #0393ff;
+}
+
+form {
+  margin-top: 80px;
+}
+
+#search {
+  background: transparent;
+  border: 0px;
+  border-radius: 0;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 20px;
+}
+
+#search:hover {
+  border-bottom: 1px solid #0393ff;
+}
+
+#search:focus {
+  border-bottom: 1px solid #0393ff;
+  box-shadow: 0px 0px 0px;
+  outline: 0px;
+}
+
+/* Supporting */
+.main,
+.supporting h2,
+.supporting p,
+.feature {
+  text-align: center;
+  color: #fff;
+}
+
+.supporting {
+  padding-bottom: 80px;
+}
+
+.supporting h2,
+.feature h1 {
+  color: #0393ff;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.supporting p {
+  margin-bottom: 45px;
+  font-size: 16px;
+}
+
+.supporting .thumbnail {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* Feature */
+.feature {
+  background: url(http://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg)
+    no-repeat center center;
+  background-size: cover;
+  height: 380px;
+  padding: 100px 0 0 0;
+}
+
+.feature p {
+  font-size: 18px;
+}
+
+.footer {
+  background: #000;
+  padding: 60px 0;
+}
+
+.footer h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.footer ul {
+  color: #0393ff;
+  list-style: none;
+  padding-left: 0px;
+}
